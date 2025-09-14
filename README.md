@@ -23,14 +23,14 @@
 **A2:** No.
 
 **Q3:** Did nmap find any vulnerabilities with the scripts?  
-**A3:** Yes. For the host 192.168.XX.XX, it seems that message signing for Server Message Block (SMB) protocol is supported, but it isn’t enforced which is less secure.
-Host script results:
-| smb2-time: 
-|   date: 2025-09-14T20:00:51
-|_  start_date: N/A
-| smb2-security-mode: 
-|   3.1.1: 
-|_    Message signing enabled but not required
+**A3:** Yes. For the host host.docker.internal, it seems that message signing for Server Message Block (SMB) protocol is supported, but it isn’t enforced which is less secure.  
+<pre> Host script results:   
+| smb2-time:   
+|   date: 2025-09-14T20:00:51  
+|_  start_date: N/A  
+| smb2-security-mode:   
+|   3.1.1:   
+|_    Message signing enabled but not required </pre>
 
 **Q4:** Screenshot of the topology of your network. You can redact device information if you want.  
 **A4:**  
