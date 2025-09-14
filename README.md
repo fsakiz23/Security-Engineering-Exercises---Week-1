@@ -1,4 +1,4 @@
-# Security Engineering Exercises - Week-1
+# Security Engineering Exercises - Week 1
 
 ## Task 1
 
